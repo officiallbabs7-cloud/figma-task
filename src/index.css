@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Josefin Sans", sans-serif;
+  --color-brand: #5956e9;
+  --color-brand-dark: #4340c9;
+  --color-brand-light: #7471f0;
+  --color-ink: #232233;
+  --color-body: #6c6c72;
+}
+
+body {
+  font-family: var(--font-sans);
+}
