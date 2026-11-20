@@ -1,3 +1,5 @@
+import useIsMobile from "./useIsMobile";
+import MobilePage from "./components/MobilePage";
 import HeroStage from "./components/HeroStage";
 import About from "./components/About";
 import Features from "./components/Features";
@@ -7,6 +9,10 @@ import Customers from "./components/Customers";
 import BlogFooter from "./components/BlogFooter";
 
 export default function App() {
+  const mobile = useIsMobile();
+
+  if (mobile) return <MobilePage />;
+
   return (
     <>
       <HeroStage />
