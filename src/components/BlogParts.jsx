@@ -47,7 +47,7 @@ export function BlogHeader({ title, crumb }) {
           </a>
           <a
             href="/#screenshot"
-            className="rounded-sm border border-white bg-brand px-3 py-1 text-[10px] font-medium uppercase text-white outline outline-1 outline-brand"
+            className="rounded-sm border border-white bg-brand px-3 py-1 text-[10px] font-medium uppercase text-white outline-brand"
           >
             Download
           </a>
