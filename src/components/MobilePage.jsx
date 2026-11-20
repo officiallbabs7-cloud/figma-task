@@ -14,7 +14,7 @@ const blurb =
 
 const links = [
   ["Home", "#home"], ["About", "#about"], ["Features", "#features"],
-  ["Screenshot", "#screenshot"], ["Blog", "#blog"],
+  ["Screenshot", "#screenshot"], ["Blog", "/blog"],
 ];
 
 const socials = [
@@ -346,7 +346,7 @@ function BlogFooterSection() {
                 <div className="p-5">
                   <h3 className="text-[16px] font-semibold uppercase leading-6 text-ink">{p.title}</h3>
                   <p className="mt-2 text-[13px] leading-5 text-body">{blurb}</p>
-                  <a href="#blog" className="mt-3 inline-block text-[16px] font-medium uppercase text-brand underline">
+                  <a href="/blog/post" className="mt-3 inline-block text-[16px] font-medium uppercase text-brand underline">
                     Read more
                   </a>
                 </div>

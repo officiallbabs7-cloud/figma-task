@@ -22,7 +22,7 @@ const quickLinks = [
   ["About", "#about"],
   ["Features", "#features"],
   ["Screenshot", "#screenshot"],
-  ["Blog", "#blog"],
+  ["Blog", "/blog"],
 ];
 
 const socials = [
@@ -46,7 +46,7 @@ function Post({ img, title }) {
         </h3>
         <p className="mt-3 text-base leading-6 text-body">{blurb}</p>
         <a
-          href="#blog"
+          href="/blog/post"
           className="mt-[25px] inline-block text-[20px] font-medium uppercase leading-[30px] text-brand underline hover:text-brand-dark"
         >
           Read more

@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+import { Routes, Route, useLocation } from "react-router-dom";
 import useIsMobile from "./useIsMobile";
 import MobilePage from "./components/MobilePage";
 import HeroStage from "./components/HeroStage";
@@ -7,12 +9,12 @@ import Checkout from "./components/Checkout";
 import HowTo from "./components/HowTo";
 import Customers from "./components/Customers";
 import BlogFooter from "./components/BlogFooter";
+import BlogList from "./components/BlogList";
+import BlogPost from "./components/BlogPost";
 
-export default function App() {
+function Home() {
   const mobile = useIsMobile();
-
   if (mobile) return <MobilePage />;
-
   return (
     <>
       <HeroStage />
@@ -22,6 +24,34 @@ export default function App() {
       <HowTo />
       <Customers />
       <BlogFooter />
+    </>
+  );
+}
+
+// Scrolls to #section links, or to the top on a new page
+function ScrollManager() {
+  const { pathname, hash } = useLocation();
+  useEffect(() => {
+    if (hash) {
+      const go = () => document.querySelector(hash)?.scrollIntoView();
+      go();
+      setTimeout(go, 150);
+    } else {
+      window.scrollTo(0, 0);
+    }
+  }, [pathname, hash]);
+  return null;
+}
+
+export default function App() {
+  return (
+    <>
+      <ScrollManager />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/blog" element={<BlogList />} />
+        <Route path="/blog/post" element={<BlogPost />} />
+      </Routes>
     </>
   );
 }
