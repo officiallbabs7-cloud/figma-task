@@ -39,7 +39,7 @@ export default function BlogList() {
 
           <nav className="flex justify-center gap-5 border-t border-[#e3e3ea] pt-6 text-[12.8px] font-medium text-body">
             {[1, 2, 3, 4, 5].map((n) => (
-              <a key={n} href="/blog" className={n === 1 ? "text-brand" : "hover:text-brand"}>{n}</a>
+              <a key={n} href="/blog" className={n === 1 ? "text-body" : "hover:text-brand"}>{n}</a>
             ))}
           </nav>
         </div>

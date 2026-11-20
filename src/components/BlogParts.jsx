@@ -22,7 +22,7 @@ const socials = [
   [FaYoutube, "https://youtube.com", "YouTube"],
 ];
 
-/* ---------- Purple banner with navbar, title and breadcrumb ---------- */
+
 export function BlogHeader({ title, crumb }) {
   const [open, setOpen] = useState(false);
 
@@ -31,12 +31,12 @@ export function BlogHeader({ title, crumb }) {
       className="relative flex h-[300px] flex-col items-center justify-center overflow-hidden bg-brand bg-cover bg-top px-5 pt-[70px] text-center text-white xl:h-[400px] xl:pt-[120px]"
       style={{ backgroundImage: "url('/images/hero-bg.png')" }}
     >
-      {/* Full navbar on big screens */}
+      
       <div className="hidden xl:block">
         <Navbar active="Blog" />
       </div>
 
-      {/* Compact navbar below xl */}
+      
       <div className="absolute inset-x-4 top-5 z-20 mx-auto max-w-[640px] xl:hidden">
         <nav className="relative flex h-[44px] items-center justify-between bg-white pl-3 pr-1.5">
           <button onClick={() => setOpen(!open)} aria-label="Menu" className="text-ink">
@@ -72,7 +72,7 @@ export function BlogHeader({ title, crumb }) {
   );
 }
 
-/* ---------- Sidebar: search, recent posts, categories, tags ---------- */
+
 const recent = [
   ["recent-1.png", "Irina Rozovsky captures Brooklyn's Prospect Park in a romantic light"],
   ["recent-2.png", "A new online show is tracing leading artists' early commercial practice"],
@@ -122,7 +122,7 @@ export function Sidebar() {
   );
 }
 
-/* ---------- Dark footer ---------- */
+
 const quick = [["About", "/#about"], ["Features", "/#features"], ["Screenshot", "/#screenshot"], ["Blog", "/blog"]];
 const lead =
   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.";
@@ -144,7 +144,7 @@ export function SiteFooter() {
                 aria-label={label}
                 className={`flex h-[19px] w-[84px] items-center justify-center transition hover:text-brand ${
                   i > 0 ? "border-l border-white/30" : ""
-                } ${i === 0 ? "text-brand" : "text-white"}`}
+                } ${i === 0 ? "text-white" : "text-white"}`}
               >
                 <Icon size={16} />
               </a>
@@ -156,7 +156,7 @@ export function SiteFooter() {
           <h4 className="text-[25px] font-semibold uppercase leading-[37.5px]">Quick link</h4>
           <ul className="mt-[10px] space-y-3 text-base leading-6">
             {quick.map(([label, href]) => (
-              <li key={label}><a href={href} className="hover:opacity-70">{label}</a></li>
+              <li key={label}><a href={href} className="transition hover:text-brand">{label}</a></li>
             ))}
           </ul>
         </div>

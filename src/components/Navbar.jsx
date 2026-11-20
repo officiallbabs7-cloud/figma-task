@@ -53,7 +53,7 @@ export default function Navbar({ active = "Home" }) {
             <li>
               <a
                 href="/#screenshot"
-                className="rounded-sm border-2 border-white bg-brand px-[27px] py-[9px] text-white outline outline-1 outline-brand hover:bg-brand-dark"
+                className="rounded-sm border-2 border-white bg-brand px-[27px] py-[9px] text-white outline-brand hover:bg-brand-dark"
               >
                 Download
               </a>

@@ -133,7 +133,7 @@ export default function BlogFooter() {
             <ul className="mt-[10px] flex flex-col gap-3 text-base leading-6 text-white">
               {quickLinks.map(([label, href]) => (
                 <li key={label}>
-                  <a href={href} className="hover:opacity-70">{label}</a>
+                  <a href={href} className="transition hover:text-brand">{label}</a>
                 </li>
               ))}
             </ul>
