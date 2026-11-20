@@ -9,6 +9,10 @@
   --color-body: #6c6c72;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: var(--font-sans);
 }
