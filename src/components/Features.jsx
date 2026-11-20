@@ -1,6 +1,6 @@
 import useStage from "../useStage";
 
-const FH = 1710; // section height in Figma px
+const FH = 1710; 
 
 const intro =
   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.";
@@ -51,7 +51,6 @@ export default function Features() {
           {intro}
         </p>
 
-        {/* Phone (image includes its shadow, so it is larger than the phone itself) */}
         <img
           src="/images/app-phone.png"
           alt="App screen"

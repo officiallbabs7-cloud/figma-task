@@ -4,7 +4,7 @@ import {
 } from "react-icons/fa";
 import useStage from "../useStage";
 
-const BH = 1608; // section height in Figma px
+const BH = 1608; 
 
 const intro =
   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.";
@@ -65,7 +65,7 @@ export default function BlogFooter() {
         className="absolute left-0 top-0 origin-top-left"
         style={{ width: stageW, height: BH, transform: `scale(${s})` }}
       >
-        {/* Blog heading */}
+        
         <h2 className="absolute inset-x-0 top-[117px] text-center text-[31.25px] font-bold uppercase leading-[47px] text-ink">
           Our recent blog
         </h2>
@@ -73,17 +73,17 @@ export default function BlogFooter() {
           {intro}
         </p>
 
-        {/* Blog cards */}
+        
         <div className="absolute flex justify-between" style={{ left: "9.306%", width: "81.39%", top: 319 }}>
           {posts.map((p) => (
             <Post key={p.img} {...p} />
           ))}
         </div>
 
-        {/* Dark footer background */}
+        
         <div className="absolute inset-x-0 bg-ink" style={{ top: 1068, height: 540 }} />
 
-        {/* Contact card (overlaps footer) */}
+        
         <div
           className="absolute flex items-center rounded-[30px] bg-white shadow-[0_12px_40px_rgba(35,34,51,0.12)]"
           style={{ left: "9.306%", width: "81.39%", top: 940, height: 228 }}
@@ -103,9 +103,9 @@ export default function BlogFooter() {
           </a>
         </div>
 
-        {/* Footer columns */}
+        
         <div className="absolute" style={{ left: "9.306%", width: "81.39%", top: 1303 }}>
-          {/* Logo column */}
+          
           <div className="absolute left-0 top-0">
             <h4 className={heading}>Logo</h4>
             <p className="mt-[10px] w-[334px] text-base leading-6 text-white">{blurb}</p>
@@ -127,7 +127,7 @@ export default function BlogFooter() {
             ))}
           </div>
 
-          {/* Quick links column */}
+          
           <div className="absolute top-0" style={{ left: 401 }}>
             <h4 className={heading}>Quick link</h4>
             <ul className="mt-[10px] flex flex-col gap-3 text-base leading-6 text-white">
@@ -139,7 +139,7 @@ export default function BlogFooter() {
             </ul>
           </div>
 
-          {/* Newsletter column */}
+          
           <div className="absolute top-0" style={{ left: 801 }}>
             <h4 className={heading}>News letter</h4>
             <p className="mt-[10px] w-[330px] text-base leading-6 text-white">
@@ -166,7 +166,7 @@ export default function BlogFooter() {
           </div>
         </div>
 
-        {/* Divider and copyright */}
+        
         <div className="absolute h-px bg-white/25" style={{ left: "9.306%", width: "81.39%", top: 1549 }} />
         <p
           className="absolute inset-x-0 flex items-center justify-center gap-2 text-base leading-6 text-white"

@@ -3,13 +3,12 @@ import StoreBadges from "./StoreBadges";
 export default function Hero() {
   return (
     <div className="absolute inset-0">
-      {/* Frame behind the card */}
+      
       <div
         className="absolute border-[18px] border-brand-light/60"
         style={{ left: "calc(9.306% + 49px)", top: 323, width: 570, height: 532 }}
       />
 
-      {/* Card: left edge lines up with the navbar */}
       <div
         className="absolute bg-white"
         style={{ left: "9.306%", top: 372, width: 570, height: 432, padding: "40px 20px 0 30px" }}
@@ -28,7 +27,6 @@ export default function Hero() {
         <StoreBadges height={44} gap={16} className="mt-2" />
       </div>
 
-      {/* Phone: anchored to the right, same gap from the navbar edge as Figma */}
       <img
         src="/images/hero-phone.png"
         alt="App preview"

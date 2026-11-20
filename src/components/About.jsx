@@ -1,15 +1,14 @@
 import { FaCheckCircle } from "react-icons/fa";
 import useStage from "../useStage";
 
-const AH = 1014; // About section height in Figma px
-
+const AH = 1014; 
 const text =
   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit.";
 
 const features = [
   { title: "Creative design", text },
   { title: "Easy to use", text },
-  { title: "Best user experince", text }, // spelled like the Figma design
+  { title: "Best user experince", text }, 
 ];
 
 export default function About() {
@@ -30,7 +29,7 @@ export default function About() {
           rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.
         </p>
 
-        {/* Phones image, left edge lines up with the navbar */}
+       
         <img
           src="/images/about-phones.png"
           alt="App screens"
@@ -38,7 +37,7 @@ export default function About() {
           style={{ left: "calc(9.306% + 35px)", top: 323, width: 370 }}
         />
 
-        {/* Feature cards, right edge lines up with the navbar */}
+        
         <div className="absolute flex flex-col gap-10" style={{ right: "9.306%", top: 317, width: 569 }}>
           {features.map((f) => (
             <div

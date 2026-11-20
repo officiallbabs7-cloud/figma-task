@@ -7,7 +7,7 @@ const right = ["Screenshot", "Blog"];
 export default function Navbar() {
   return (
     <header className="absolute inset-x-0 top-0 z-20 text-white">
-      {/* Top info bar */}
+      
       <div className="mx-auto flex w-[81.39%] items-center justify-between pb-[19px] pt-[35px] text-sm">
         <div className="flex items-center gap-8">
           <a href="mailto:Info@youremail.com" className="flex items-center gap-2 hover:opacity-80"><Mail size={16} /> Info@youremail.com</a>
@@ -35,7 +35,7 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* Main nav */}
+      
       <div className="mx-auto w-[81.39%]">
         <nav className="relative flex items-center justify-between rounded-sm bg-white py-[18px] pl-[53px] pr-[5px]">
           <ul className="flex items-center gap-10 text-base font-medium uppercase text-ink">

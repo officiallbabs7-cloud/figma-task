@@ -1,6 +1,6 @@
 import useStage from "../useStage";
 
-const CH = 873; // section height in Figma px
+const CH = 873; 
 
 const para =
   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.";
@@ -52,7 +52,7 @@ export default function Customers() {
           {para}
         </p>
 
-        {/* Left side card */}
+        
         <div
           className="absolute h-[328px] w-[573px] overflow-hidden rounded-sm bg-white"
           style={{ left: "9.306%", top: 335 }}
@@ -60,7 +60,7 @@ export default function Customers() {
           <CardBody name="Amy Wilson" role="Designer" padX={38} />
         </div>
 
-        {/* Right side card */}
+        
         <div
           className="absolute h-[328px] w-[573px] overflow-hidden rounded-sm bg-white"
           style={{ right: "9.306%", top: 335 }}
@@ -68,7 +68,7 @@ export default function Customers() {
           <CardBody name="Jon Martin" role="Developer" padX={38} />
         </div>
 
-        {/* Center card */}
+        
         <div
           className="absolute left-1/2 h-[355px] w-[767px] -translate-x-1/2 rounded-sm bg-white shadow-[0_12px_40px_rgba(35,34,51,0.2)]"
           style={{ top: 320 }}
@@ -76,7 +76,7 @@ export default function Customers() {
           <CardBody name="Ann Lubin" role="Co-founder" avatar="/images/customer-ann.png" padX={67} />
         </div>
 
-        {/* Dots */}
+        
         <div className="absolute left-1/2 flex -translate-x-1/2 items-center gap-5" style={{ top: 740 }}>
           <span className="h-[14px] w-[14px] rounded-full bg-white ring-[5px] ring-white/30" />
           {[1, 2, 3, 4].map((i) => (

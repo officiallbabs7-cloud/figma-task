@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
 
 export const W = 1440;
-export const H = 1000; // hero height, keep the same as in HeroStage
-
+export const H = 1000; 
 const calc = () => {
   const cw = document.documentElement.clientWidth;
   const s = Math.min(cw / W, window.innerHeight / H);

@@ -1,7 +1,7 @@
 import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 import useStage from "../useStage";
 
-const HH = 1663; // section height in Figma px
+const HH = 1663; 
 
 const para =
   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.";
@@ -25,7 +25,7 @@ const socials = [
 function Card({ name, role, img, active }) {
   return (
     <div className="flex h-[580px] w-[370px] flex-col items-center rounded-sm bg-white pt-[29px] shadow-[0_0_24px_rgba(35,34,51,0.1)]">
-      {/* Photo with the broken purple ring */}
+      
       <div className="relative h-[220px] w-[220px]">
         <svg viewBox="0 0 220 220" className="absolute inset-0 h-full w-full">
           <circle

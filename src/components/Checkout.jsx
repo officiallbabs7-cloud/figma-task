@@ -14,7 +14,7 @@ const stats = [
   { icon: FaStar, value: "1500", label: "5 Star rating" },
 ];
 
-const CH = 1794; // section height in Figma px
+const CH = 1794; 
 
 const para =
   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.";
@@ -32,7 +32,7 @@ export default function Checkout() {
         className="absolute left-0 top-0 origin-top-left"
         style={{ width: stageW, height: CH, transform: `scale(${s})` }}
       >
-        {/* Checkout heading */}
+        
         <h2 className="absolute inset-x-0 top-[117px] text-center text-[31.25px] font-bold uppercase leading-[47px] text-ink">
           Checkout our app interface look
         </h2>
@@ -40,7 +40,7 @@ export default function Checkout() {
           {para}
         </p>
 
-        {/* Slider image */}
+        
         <img
           src="/images/checkout-slider.png"
           alt="App screens"
@@ -48,7 +48,7 @@ export default function Checkout() {
           style={{ top: 322, width: 1086 }}
         />
 
-        {/* Arrows */}
+        
         <button
           className="absolute flex h-[80px] w-[80px] items-center justify-center rounded-full border-2 border-brand text-brand"
           style={{ left: "calc(50% - 644px)", top: 610 }}
@@ -64,7 +64,7 @@ export default function Checkout() {
           <FaChevronRight size={22} />
         </button>
 
-        {/* Dots */}
+        
         <div
           className="absolute left-1/2 flex -translate-x-1/2 items-center gap-5"
           style={{ top: 987 }}
@@ -75,7 +75,7 @@ export default function Checkout() {
           ))}
         </div>
 
-        {/* Download app now: text side */}
+        
         <h3
           className="absolute text-[31.25px] font-semibold uppercase leading-[47px] text-ink"
           style={{ left: "9.306%", top: 1137 }}
@@ -112,7 +112,7 @@ export default function Checkout() {
           ))}
         </div>
 
-        {/* Download app now: phones */}
+        
         <img
           src="/images/download-phones.png"
           alt="App on two phones"
