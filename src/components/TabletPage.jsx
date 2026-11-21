@@ -134,7 +134,7 @@ function HeroSection() {
         </button>
         <a
           href="#screenshot"
-          className="absolute right-[3px] top-1/2 flex h-[49px] w-[161px] -translate-y-1/2 items-center justify-center border-2 border-white bg-brand text-[20px] font-medium uppercase text-white outline outline-1 outline-brand hover:bg-brand-dark"
+          className="absolute right-[3px] top-1/2 flex h-[49px] w-[161px] -translate-y-1/2 items-center justify-center border-2 border-white bg-brand text-[20px] font-medium uppercase text-white outline-brand hover:bg-brand-dark"
         >
           Download
         </a>
