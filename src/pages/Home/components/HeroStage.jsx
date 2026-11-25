@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Navbar from "../../../components/Navbar";
+import { Navbar } from "../../../components";
 import Hero from "./Hero";
 
 const W = 1440;

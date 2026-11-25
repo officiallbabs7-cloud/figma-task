@@ -15,7 +15,7 @@ import {
   FaTwitter,
   FaYoutube,
 } from "react-icons/fa";
-import StoreBadges from "../../../components/StoreBadges";
+import { StoreBadges } from "../../../components";
 
 const para =
   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.";

@@ -6,8 +6,8 @@ import {
   FaDownload, FaThumbsUp, FaStar, FaEnvelope, FaPhoneAlt, FaPlay, FaRegCopyright,
   FaFacebookF, FaInstagram, FaTwitter, FaYoutube,
 } from "react-icons/fa";
-import StoreBadges from "../../../components/StoreBadges";
-import useZoom from "../../../hooks/useZoom";
+import { StoreBadges } from "../../../components";
+import { useZoom } from "../../../hooks";
 
 const intro =
   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus.";

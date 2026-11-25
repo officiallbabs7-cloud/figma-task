@@ -5,8 +5,8 @@ import {
   FaThumbsUp,
   FaStar,
 } from "react-icons/fa";
-import useStage from "../../../hooks/useStage";
-import StoreBadges from "../../../components/StoreBadges";
+import { useStage } from "../../../hooks";
+import { StoreBadges } from "../../../components";
 
 const stats = [
   { icon: FaDownload, value: "59865", label: "Download" },

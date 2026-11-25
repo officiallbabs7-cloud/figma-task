@@ -1,5 +1,5 @@
 import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
-import useStage from "../../../hooks/useStage";
+import { useStage } from "../../../hooks";
 
 const HH = 1663; 
 

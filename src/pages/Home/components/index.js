@@ -1,0 +1,10 @@
+export { default as About } from "./About";
+export { default as BlogFooter } from "./BlogFooter";
+export { default as Checkout } from "./Checkout";
+export { default as Customers } from "./Customers";
+export { default as Features } from "./Features";
+export { default as Hero } from "./Hero";
+export { default as HeroStage } from "./HeroStage";
+export { default as HowTo } from "./HowTo";
+export { default as MobilePage } from "./MobilePage";
+export { default as TabletPage } from "./TabletPage";

@@ -1,8 +1,7 @@
 import { Routes, Route } from "react-router-dom";
-import ScrollManager from "./components/ScrollManager";
-import Home from "./pages/Home/Home";
-import BlogList from "./pages/Blog/BlogList";
-import BlogPost from "./pages/Blog/BlogPost";
+import { ScrollManager } from "./components";
+import { BlogList, BlogPost } from "./pages/Blog";
+import { Home } from "./pages/Home";
 
 export default function App() {
   return (

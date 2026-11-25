@@ -1,13 +1,15 @@
-import useLayout from "../../hooks/useLayout";
-import MobilePage from "./components/MobilePage";
-import TabletPage from "./components/TabletPage";
-import HeroStage from "./components/HeroStage";
-import About from "./components/About";
-import Features from "./components/Features";
-import Checkout from "./components/Checkout";
-import HowTo from "./components/HowTo";
-import Customers from "./components/Customers";
-import BlogFooter from "./components/BlogFooter";
+import { useLayout } from "../../hooks";
+import {
+  About,
+  BlogFooter,
+  Checkout,
+  Customers,
+  Features,
+  HeroStage,
+  HowTo,
+  MobilePage,
+  TabletPage,
+} from "./components";
 
 export default function Home() {
   const layout = useLayout();

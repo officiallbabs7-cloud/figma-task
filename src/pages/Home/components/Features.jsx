@@ -1,4 +1,4 @@
-import useStage from "../../../hooks/useStage";
+import { useStage } from "../../../hooks";
 
 const FH = 1710; 
 
