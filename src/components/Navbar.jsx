@@ -43,7 +43,7 @@ export default function Navbar({ active = "Home" }) {
           </ul>
 
           <a href="/#home" className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
-            <img src="/images/logo.png" alt="Appolly" className="h-[90px] w-[200px] object-contain" />
+            <img src="/images/logo.png" alt="Appolly" className="h-[125px] w-[215px] object-fill" />
           </a>
 
           <ul className="flex items-center gap-10 text-base font-medium uppercase text-ink">
@@ -53,7 +53,7 @@ export default function Navbar({ active = "Home" }) {
             <li>
               <a
                 href="/#screenshot"
-                className="rounded-sm border-2 border-white bg-brand px-[27px] py-[9px] text-white outline-brand hover:bg-brand-dark"
+                className="inline-flex h-[50px] w-[158px] shrink-0 items-center justify-center rounded-[5px] border-2 border-white bg-brand text-white outline-brand hover:bg-brand-dark"
               >
                 Download
               </a>
