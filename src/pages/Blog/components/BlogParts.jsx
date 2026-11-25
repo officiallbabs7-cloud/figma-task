@@ -4,7 +4,7 @@ import {
   FaBars, FaTimes, FaSearch, FaPlay, FaRegCopyright,
   FaFacebookF, FaInstagram, FaTwitter, FaYoutube,
 } from "react-icons/fa";
-import Navbar from "./Navbar";
+import Navbar from "../../../components/Navbar";
 
 export const wrap = "mx-auto w-[calc(100%-40px)] xl:w-[81.39%]";
 const line = "border-[#e3e3ea]";

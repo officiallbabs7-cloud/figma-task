@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { BlogHeader, Sidebar, SiteFooter, wrap } from "./BlogParts";
+import { BlogHeader, Sidebar, SiteFooter, wrap } from "./components/BlogParts";
 
 const excerpt =
   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Massa lorem turpis lectus viverra. Nulla volutpat urna eget nisl mi, scelerisque. Fusce cursus massa ut egestas. Massa lorem turpis lectus viverra, nulla volutpat urna eget.";

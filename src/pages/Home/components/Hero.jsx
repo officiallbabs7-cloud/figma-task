@@ -1,4 +1,4 @@
-import StoreBadges from "./StoreBadges";
+import StoreBadges from "../../../components/StoreBadges";
 
 export default function Hero() {
   return (

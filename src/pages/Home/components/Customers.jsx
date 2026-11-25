@@ -1,4 +1,4 @@
-import useStage from "../useStage";
+import useStage from "../../../hooks/useStage";
 
 const CH = 873; 
 

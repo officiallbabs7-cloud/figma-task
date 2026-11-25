@@ -2,7 +2,7 @@ import {
   FaFacebookF, FaInstagram, FaTwitter, FaYoutube,
   FaEnvelope, FaPhoneAlt, FaPlay, FaRegCopyright,
 } from "react-icons/fa";
-import useStage from "../useStage";
+import useStage from "../../../hooks/useStage";
 
 const BH = 1608; 
 

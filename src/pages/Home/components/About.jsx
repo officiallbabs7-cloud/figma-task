@@ -1,5 +1,5 @@
 import { FaCheckCircle } from "react-icons/fa";
-import useStage from "../useStage";
+import useStage from "../../../hooks/useStage";
 
 const AH = 1014; 
 const text =

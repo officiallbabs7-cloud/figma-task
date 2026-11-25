@@ -1,5 +1,5 @@
 import { FaPlay, FaHeart, FaChevronDown, FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
-import { BlogHeader, Sidebar, SiteFooter, wrap } from "./BlogParts";
+import { BlogHeader, Sidebar, SiteFooter, wrap } from "./components/BlogParts";
 
 const lorem =
   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Massa lorem turpis lectus viverra. Nulla volutpat urna eget nisl mi, scelerisque. Fusce cursus massa ut egestas.";
